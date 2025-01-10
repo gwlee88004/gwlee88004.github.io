@@ -3,7 +3,7 @@
 
 title: gwlee personal website
 description: intro, projects
-baseurl: "/bay"
+baseurl: ""
 url: "https://gwlee88004.github.io"
 og_image: /assets/img/profile-pic.jpg
 google_analytics: "UA-121636368-3"
