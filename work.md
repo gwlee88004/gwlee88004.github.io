@@ -7,7 +7,7 @@ items:
     image:
       src: /assets/img/work/ml.png
       alt: ML
-    description: I have advanced expertise in deep learning frameworks, including PyTorch, TensorFlow, and ONNX, with a strong understanding of underlying theories and computational principles. My experience spans modern model architectures such as CNNs, VAEs, LSTMs, WaveNet, and Diffusion models. Additionally, I am proficient in classical machine learning approaches, including decision tree models, gradient boosting techniques, and support vector machines (SVMs).
+    description: I have a strong foundation in deep learning, with extensive experience in frameworks like PyTorch and TensorFlow, and a solid understanding of modern model architectures, such as CNNs, VAEs, LSTMs, WaveNet, and Diffusion models, and their applications. I am also proficient in classical machine learning approaches, including decision tree models, gradient boosting techniques, and support vector machines (SVMs).
 
   - title: Statistical Modeling
     image:
