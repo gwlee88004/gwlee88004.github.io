@@ -1,7 +1,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
-title: gwlee personal website
+title: gwlee website
 description: intro, projects
 baseurl: ""
 url: "https://gwlee88004.github.io"
