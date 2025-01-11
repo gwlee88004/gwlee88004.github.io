@@ -2,7 +2,7 @@
 layout: default
 title: "3D localization using defect-induced waves"
 ---
-
+# 3D localization using defect-induced waves
 The goal of this research is to minimize the number of receivers needed for defect localization in hazardous environments, where robotic deployment is crucial to eliminate human exposure. Focusing on hollow cylindrical structures, we have developed a waveform-based method that exploits the unique patterns created by the cylindrical geometry.
 <a target="_blank" href="https://doi.org/10.1177/14759217241260254">[article]</a>
 
@@ -21,6 +21,6 @@ And here's the cool part: in a hollow cylinder, the "plate" has no boundary, mea
 
 As a result, **energy arrives at a receiver with time delays corresponding to the unique combination of path lengths**, making the waveform distinctive for each source location. The figure below illustrates how path lengths and mode arrivals contribute to the waveform's uniqueness relative to the source coordinates.
 
-<img src="assets\img\content\vae\waveforms.jpg" alt="helical paths figure" style="display: block; margin: 0 auto;" />
+<img src="assets\img\content\vae\waveforms.jpg" alt="helical paths figure" style="display: block; margin: 0 auto;max-width: 600px" />
 
 
