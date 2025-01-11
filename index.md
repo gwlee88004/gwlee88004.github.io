@@ -7,7 +7,7 @@ profile_picture:
 <p>Hi there! I am Guan-Wei 👋 Welcome to my personal website.</p>
 
 <p>
-I'm currently pursuing my PhD at the University of Texas at Austin, where I specialize in developing advanced machine learning models for pattern recognition, uncertainty quantification, and efficient data-driven simulations. My expertise lies in <strong>scientific machine learning</strong>, <strong>statistical modeling</strong>, and tackling diverse <strong>data science and analytic challenges</strong>.
+I'm currently pursuing my PhD at the University of Texas at Austin, where my expertise lies in <strong>scientific machine learning</strong>, <strong>statistical modeling</strong>, and tackling diverse <strong>data science and analytic challenges</strong>.
 </p>
 
 <p>
