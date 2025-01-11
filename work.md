@@ -39,6 +39,6 @@ items:
 
 ---
 
-This is an example of a "Work" page, displaying your work, your interests, your projects.
+My expertise lies in monitoring critical infrastructure through the analysis of wave data. By combining advanced techniques in machine learning, statistical modeling, data science, and wave propagation, I develop innovative solutions to complex challenges. Below are the key areas of my expertise.
 <br />
 <br />
