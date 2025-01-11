@@ -23,4 +23,22 @@ As a result, **energy arrives at a receiver with time delays corresponding to th
 
 <img src="assets\img\content\vae\waveforms.jpg" alt="helical paths figure" style="display: block; margin: 0 auto;max-width: 600px" />
 
+## Variational AutoEncoder Modeling  
 
+This research leverages a Variational AutoEncoder (VAE) model to capture the above patterns in an unsuperivsed manner. This data-driven Bayesian framework identifies patterns in waveforms and reduces high-dimensional data into a compact latent space. The model operates on waveform envelopes, capturing unique dispersion characteristics that correlate with source locations. By predicting spatial coordinates and quantifying uncertainties in experimental data, the VAE model enhances both the accuracy and reliability of localization, providing valuable insights for monitoring critical infrastructure.  
+
+## Bayesian Approach and Latent Variable Utility  
+
+The Bayesian foundation of the VAE model is critical for addressing the uncertainties inherent in experimental data. Variations in waveforms, often caused by noise or external factors, are captured within the probabilistic framework, ensuring robust predictions even in challenging conditions.  
+
+Within this latent space, the latent variables serve a dual purpose:  
+1. **Encoding Localization:** They encode the localization process while capturing and propagating the uncertainties inherent in experimental data. This allows the model to predict spatial coordinates and provide a measure of the variability or uncertainty associated with those predictions.  
+2. **Interpreting Waveform Characteristics:** The latent variables reflect the influence of source coordinates on waveform characteristics. By reconstructing waveforms from the latent space, the model demonstrates how changes in source location are embedded in and affect the waveform structure.  
+
+This dual role highlights the latent variables as both a representation of localization and a means to approximate and interpret the uncertainties in the data.
+
+A validation of the model using a dataset collected from a 2-story-tall gas cylinder is presented below. The latent space effectively separates the data by source coordinates.  
+
+The 3D results are documented in a journal paper, and an interactive 3D latent space visualization can be explored [here](./_plot/latent_3d.html).  
+
+<img src="assets\img\content\vae\result.jpg" alt="validation figure" style="display: block; margin: 0 auto;max-width: 600px" />
