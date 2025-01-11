@@ -39,6 +39,6 @@ This dual role highlights the latent variables as both a representation of local
 
 A validation of the model using a dataset collected from a 2-story-tall gas cylinder is presented below. The latent space effectively separates the data by source coordinates.  
 
-The 3D results are documented in a journal paper, and an interactive 3D latent space visualization can be explored [here](https://gwlee88004.github.io/_plot/latent_3d.html).  
+The 3D results are documented in a journal paper, and an interactive 3D latent space visualization can be explored [here](https://gwlee88004.github.io/latent_3d.html).  
 
 <img src="assets\img\content\vae\result.jpg" alt="validation figure" style="display: block; margin: 0 auto;max-width: 600px" />
