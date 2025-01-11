@@ -12,7 +12,7 @@ header:
   pages:
     - name: Home #<-- index.md
       slug: /
-    - name: "What I Do" #<--work.md
+    - name: "Skill Set" #<--work.md
       slug: /work
     - name: Research #<--research.md
 
