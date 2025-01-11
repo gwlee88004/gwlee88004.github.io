@@ -53,17 +53,17 @@ plugins:
   - jekyll-feed
 
 # Excluded items
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - feed.xml
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - feed.xml
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
 
 # Used for defeating caching
 version: 1
