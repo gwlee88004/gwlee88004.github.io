@@ -12,8 +12,8 @@ header:
   pages:
     - name: Home #<-- index.md
       slug: /
-    - name: Work
-    - name: Blog
+    - name: About #<--
+    - name: 
 
 footer:
   show_powered_by: true
