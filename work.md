@@ -21,11 +21,19 @@ items:
       alt: DS
     description: I derived insights from experimental data using data science techniques and have automated data pipelines, integrated data across databases using SQL, and performed ETL operations. Additionally, I built real-time dashboards to provide timely insights and enable data-driven adjustments during experiments.
   
-  - title: Data Science and Analytics
+  - title: Wave Propagation
     image:
-      src: /assets/img/work/ds.png
-      alt: DS
-    description: I derived insights from experimental data using data science techniques and have automated data pipelines, integrated data across databases using SQL, and performed ETL operations. Additionally, I built real-time dashboards to provide timely insights and enable data-driven adjustments during experiments.
+      src: /assets/img/work/wave_prop.png
+      alt: Lamb Waves
+    description: I have a strong foundation in wave propagation in elastic solids, from deriving wave partial differential equations (PDEs) to applying boundary conditions for various scenarios. I am skilled in simulating wave behavior using numerical methods and modeling it in finite element software. Recently, my focus has been on enhancing simulation efficiency through physics-based machine learning techniques.
+  
+  - title: ex-Structural engineer
+    image:
+      src: /assets/img/work/structural_eng.png
+      alt: Structural
+    description: As a former structural engineer, I gained valuable experience collaborating within multi-disciplinary teams, including architects, various engineering disciplines, and contractors. This role honed my ability to communicate effectively, coordinate across diverse expertise, and contribute to complex, team-driven projects.
+
+
 
 
 
