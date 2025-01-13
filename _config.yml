@@ -12,9 +12,9 @@ header:
   pages:
     - name: Home #<-- index.md
       slug: /
+    - name: Research #<--research.md
     - name: "Skill Set" #<--work.md
       slug: /work
-    - name: Research #<--research.md
 
 footer:
   show_powered_by: true
@@ -68,3 +68,8 @@ exclude:
 
 # Used for defeating caching
 version: 1
+
+collections:
+  pages:
+    output: true
+    permalink: /pages/:name/
