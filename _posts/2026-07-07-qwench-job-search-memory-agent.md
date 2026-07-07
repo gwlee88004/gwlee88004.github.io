@@ -3,8 +3,12 @@ layout: post
 title: "Building Qwench the Job Search with Qwen Cloud"
 date: 2026-07-07 10:00:40
 blurb: "A look at how I built a memory-driven job search agent that learns from feedback, improves keywords, and adjusts job scoring with Qwen Cloud."
-og_image: /assets/img/content/post-example/Banner.jpg
+og_image: /assets/img/content/qwench/banner.png
 ---
+
+<img src="{{ "/assets/img/content/qwench/banner.png" | absolute_url }}" alt="bay" class="post-pic"/>
+<br />
+<br />
 
 Job search is usually treated as a matching problem: compare a resume to a job description, calculate a score, and rank the results. But while building **Qwench the Job Search**, I ran into a more fundamental bottleneck: the wrong keywords return the wrong jobs.
 
@@ -107,27 +111,9 @@ That distinction is important. A user may prefer causal inference roles, while t
 #### ARCHITECTURE
 
 The memory loop looks like this:
-
-```mermaid
-flowchart TD
-    P[User Profile] --> K[Qwen Keyword Generator]
-    M[(Persistent Memory DB)] --> K
-    K --> J[Job Retrieval Layer]
-    J --> S[Deterministic Scorer]
-    S --> MM[Memory-Based Score Modifier]
-    M --> MM
-    MM --> O[Ranked Jobs]
-    O --> F[User Feedback<br/>Apply / Maybe / Skip + Reason]
-    F --> X[Qwen Memory Extractor]
-    X --> M
-    M --> N[Next Search Run]
-
-    classDef qwen fill:#E6F0FF,stroke:#3366CC,stroke-width:2px,color:#000000;
-    classDef memory fill:#F3E8FF,stroke:#7E57C2,stroke-width:2px,color:#000000;
-
-    class K,X qwen;
-    class M,MM memory;
-```
+<img src="{{ "/assets/img/content/qwench/qwench_arch_diagram.png" | absolute_url }}" alt="bay" class="post-pic"/>
+<br />
+<br />
 
 In this architecture, Qwen Cloud is used for the reasoning-heavy parts of the system. The database owns persistence. The backend owns validation, retrieval, and scoring.
 
