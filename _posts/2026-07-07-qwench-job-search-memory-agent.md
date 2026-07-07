@@ -4,7 +4,7 @@ title: "Building Qwench the Job Search with Qwen Cloud"
 date: 2026-07-07 10:00:40
 blurb: "A look at how I built a memory-driven job search agent that learns from feedback, improves keywords, and adjusts job scoring with Qwen Cloud."
 og_image: /assets/img/content/post-example/Banner.jpg
------------------------------------------------------
+---
 
 Job search is usually treated as a matching problem: compare a resume to a job description, calculate a score, and rank the results. But while building **Qwench the Job Search**, I ran into a more fundamental bottleneck: the wrong keywords return the wrong jobs.
 
